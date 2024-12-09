@@ -1,7 +1,7 @@
 import React from "react";
 import './Carousel.css';
 
-function Carousel(){
+function Carousel({largeCarousel, background}){
     const images = [
         'https://preview.colorlib.com/theme/hepta/images/slider-1.jpg.webp',
         'https://preview.colorlib.com/theme/hepta/images/slider-2.jpg.webp',
@@ -11,10 +11,10 @@ function Carousel(){
         'https://preview.colorlib.com/theme/hepta/images/slider-6.jpg.webp'
       ];
       return(
-<div className="carousel-container">
+<div className={ largeCarousel ? `carousel-container-1`:`carousel-container`} style={{background:background}}>
     <div
       id="customCarousel"
-      className="carousel slide"
+      className={ largeCarousel ? `carousel-1`:`carousel slide`}
       data-bs-ride="carousel"
       style={{ width: '65%', margin: '0 auto', marginTop:'55px', position: 'relative' }}
     >

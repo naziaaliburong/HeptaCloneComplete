@@ -27,12 +27,8 @@ body{
   z-index: 1;
 }
 
-@media (max-width:275px){
-  #nav-hero{
-   background-size: 500%;
-  }
-  }
-  .hotel-img{
+
+.hotel-img{
     position: relative;
     background-image: url('https://preview.colorlib.com/theme/hepta/images/hero_5.jpg');
     background-position: center;
@@ -40,6 +36,7 @@ body{
     height: 80vh;
     width: 100%;
     box-sizing: border-box;
+    margin-bottom: 60px;
   }
   .hotel-img::before{
     content: '';
@@ -108,3 +105,30 @@ body{
     background-color: rgba(0,0,0,0.2);
     z-index: 1;
   }
+  .pad-btm{
+    margin-bottom: 120px;
+  }
+  @media(max-width:1100px){
+  .contact-img{
+    height: 90vh;
+  }
+  .news-img{
+    height: 90vh;
+  }
+  .about-img{
+    height: 90vh;
+  }
+  .hotel-img{
+    height: 90vh;
+  }
+  }
+  @media(max-width: 1000px){
+    .pad-btm{
+      margin-bottom: 50px;
+    }
+  }
+  @media (max-width:275px){
+    #nav-hero{
+     background-size: 500%;
+    }
+    }

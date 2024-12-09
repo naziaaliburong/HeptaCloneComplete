@@ -22,8 +22,8 @@ function RatingCard(){
     },
     {
         image: "https://preview.colorlib.com/theme/hepta/images/img_2.jpg.webp",
-        heading1Text: "Food & Wines",
-        paraText: "3,239 reviews",
+        heading1Text: "Resort & Spa",
+        paraText: "4,921 reviews",
         ratingIcons: (
             <>
                 <i className="bi bi-star-fill"></i>
@@ -36,8 +36,8 @@ function RatingCard(){
     },
     {
         image: "https://preview.colorlib.com/theme/hepta/images/img_3.jpg.webp",
-        heading1Text: "Food & Wines",
-        paraText: "3,239 reviews",
+        heading1Text: "Hotel Rooms",
+        paraText: "2,112 reviews",
         ratingIcons: (
             <>
                 <i className="bi bi-star-fill"></i>
@@ -49,9 +49,9 @@ function RatingCard(){
         ),
     },
     {
-        image: "https://preview.colorlib.com/theme/hepta/images/img_4.jpg.webp",
-        heading1Text: "Food & Wines",
-        paraText: "3,239 reviews",
+        image: "https://preview.colorlib.com/theme/hepta/images/img_5.jpg.webp",
+        heading1Text: "Mountain Climbing",
+        paraText: "6,421 reviews",
         ratingIcons: (
             <>
                 <i className="bi bi-star-fill"></i>

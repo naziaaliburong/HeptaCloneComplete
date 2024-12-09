@@ -6,13 +6,13 @@
 }
 .hero-centered-large h1{
     font-family: "Abril Fatface", times, serif;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 500;
     line-height: 70px;
     margin-bottom: 30px;
 }
 .hero-para-style{
-    font-size: 15px !important;
+    font-size: 18px !important;
 }
 
 @media (max-width: 900px){
@@ -21,9 +21,9 @@
         line-height: 40px;
     }
 }
-.class1{
-    color: rgba(255, 255, 255, 0.7) !important;
-}
-.class2{
-    color: black !important;
+@media (max-width: 400px){
+    .hero-centered-large h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
 }

@@ -1,0 +1,128 @@
+/* Styling for the card */
+.contact-form{
+    padding-left: 8%;
+    padding-right: 8%;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    margin-bottom: 0 !important;
+    padding-bottom: 10% !important;
+}
+
+.form-card {
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    
+  }
+  .input-style{
+    display: flex;
+    gap: 20px;
+  }
+  /* Input field styling */
+  .input-field {
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px;
+    box-shadow: none !important;
+  }
+  
+  /* Send button styling */
+  .send-btn {
+    background-color: white;
+    border-color: rgb(101, 192, 186);
+    color: rgb(33, 37, 41);
+    font-family: "Mukta Mahee", arial, sans-serif;
+    line-height: 24px;
+    border-radius: 4px;
+    padding: 5px 15px;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-btn:hover {
+    background-color: rgb(101, 192, 186);
+    color: white;
+  }
+  
+  /* Right section - Contact Details */
+  .contact-details {
+    font-family: "Arial", sans-serif;
+    color: #000;
+    padding-left: 8%;
+  }
+  
+  .contact-heading {
+    color: rgb(101, 192, 186);
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    line-height: 25.2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .contact-text {
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  /* Card shadow */
+  .card {
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 32.4px;
+    color: rgb(108, 117, 125);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  @media (max-width: 1100px) {
+    .contact-form{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 7% !important;
+        padding-bottom: 10% !important;
+    }
+    .contact-heading {
+        font-size: 12px;
+      }
+  }
+  @media (max-width: 1000px) {
+    .contact-form{
+        padding-top: 1% !important;
+    }
+ }
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .input-style{
+        display: flex;
+        flex-direction: column;
+      }
+    .contact-form{
+        padding-left: 15% !important;
+        padding-right: 15% !important;
+    }
+    .contact-details {
+      margin-top: 35px;
+      padding-left: 3% !important;
+    }
+
+  }
+  @media (max-width: 575px) {
+    .contact-form{
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+        padding-bottom: 15% !important;
+    }
+    .contact-details {
+        margin-top: 35px;
+        padding-left: 4% !important;
+      }
+      .contact-text {
+        font-size: 20px;
+      }
+  }
+  

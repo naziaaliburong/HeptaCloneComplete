@@ -1,0 +1,26 @@
+.grid-container-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    padding-top: 2%;
+    padding-bottom: 11%;
+    padding-left: 9%;
+    padding-right: 9%;
+    gap: 25px;
+    background-color: white;
+    }
+    @media (max-width: 1100px){
+    .grid-container-3{
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 8% !important;
+        padding-right: 8% !important;
+    }
+    }
+    
+    @media (max-width: 580px){
+        .grid-container-3{
+            grid-template-columns: 1fr;
+            padding-bottom: 30%;
+        }
+        
+        }

@@ -3,15 +3,24 @@
     padding: 50px 0;
     padding-top: 0 !important;
   }
-
+.carousel-container-1{
+    padding: 50px 0;
+    padding-top: 0 !important;
+    width: 100%;
+}
 .carousel {
     margin: 0 auto;
     width: 80%;
   }
-  
+.carousel-1 {
+ width: 83% !important;
+}
 .carousel-item img {
     border-radius: 0px !important;
-  }
+}
+.carousel-inner{
+  box-shadow: 0 0 35px 35px rgba(233, 236, 239, 0.3);
+}
   
 .custom-arrow {
     width: auto;
